@@ -1,0 +1,2088 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Kundan's - Food Menu</title>
+  <meta name="title" content="">
+  <meta name="description" content="Kundan's website created by awkwardpy">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Menu</p>
+  </div>
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">
+          Restaurant St, Kashipur, Uttarakhand 244713, IND
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 11.00 pm</span>
+      </div>
+
+      <a href="tel:+9193777477" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+91 9193 7774 77</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:info@kundans.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">info@kundans.com</span>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="100" height="50" alt="Kundan's - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="160" height="50" alt="Kundan's - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#menu1" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Breakfast</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu2" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Lassi</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu3" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Cold Coffee</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu4" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Mocktails</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu5" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Cold Beverages</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu6" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Hot Beverages</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu7" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Shakes</span>
+            </a>
+          </li>
+
+
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Ramnagar, Peerumadara, Kashipur, Moradabad, Gajraula
+          </address>
+
+
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+09193777477" class="body-1 contact-number hover-underline">
+            +91 9193 7774 77
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="index.html#book" class="btn btn-secondary">
+        <span class="text text-1">Can't wait</span>
+
+        <span class="text text-2" aria-hidden="true">Order Now</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+  <main class="margin-bottom-355">
+
+    <!-- 
+        - #MENU
+      -->
+
+    <section class="section menu" aria-label="menu-label" id="menu1">
+      <div class="container">
+
+        <p class="section-subtitle text-center label-2"></br></br></br>Morning Favorites</p>
+
+        <h2 class="headline-1 section-title text-center">Breakfast</h2>
+
+        <ul class="grid-list">
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 10; --height: 10;">
+                <img src="./assets/images/chole.jpg" width="3" height="3" loading="lazy" alt="Chhole Bhature"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title" class="margin-bottom-35">Chhole Bhature</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A classic North Indian dish featuring spicy chickpeas served with deep-fried bhature.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/puri-bhaji.jpg" width="100" height="100" loading="lazy" alt="Puri Bhaji"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Puri Bhaji</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Fluffy deep-fried bread served with a flavorful potato curry.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/gobhi.jpg" width="100" height="100" loading="lazy" alt="Gobi Parantha"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Gobi Parantha</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 60/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Whole wheat flatbread stuffed with spiced cauliflower.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/aloo.jpg" width="100" height="100" loading="lazy" alt="Aloo Parantha"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Aloo Parantha</a>
+                  </h3>
+
+
+                  <span class="span title-2">Rs. 55/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Whole wheat flatbread stuffed with seasoned mashed potatoes.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/panner1.jpg" width="100" height="100" loading="lazy" alt="Paneer Parantha"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Paneer Parantha</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 70/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Whole wheat flatbread stuffed with Indian cottage cheese (paneer) and spices.
+                   </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/mix_parantha.jpg" width="100" height="100" loading="lazy" alt="Mix Parantha"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Mix Parantha</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 60/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Whole wheat flatbread stuffed with a mix of vegetables and spices.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/onion.jpg" width="100" height="100" loading="lazy" alt="Onion Parantha"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Onion Parantha</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 55/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Whole wheat flatbread stuffed with seasoned onions.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/aloo-onion.jpg" width="100" height="100" loading="lazy" alt="Aloo Onion Parantha"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Aloo Onion Parantha</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 60/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Whole wheat flatbread stuffed with mashed potatoes and onions.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/poha.jpg" width="100" height="100" loading="lazy" alt="Poha"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Poha</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 120/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Flattened rice cooked with vegetables and spices, a popular breakfast dish in India.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/uttapam.jpg" width="100" height="100" loading="lazy" alt="Mix Uttapam"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Mix Uttapam</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 180/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  South Indian savory pancake made with rice and lentil batter, topped with mixed vegetables.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/butter-toast.jpg" width="100" height="100" loading="lazy"      
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Butter Toast</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 60/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Simple toast made with bread and butter.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/tea.jpg" width="100" height="100" loading="lazy"      
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Tea</a>
+                  </h3>
+
+                  <span class="badge label-1">Favroite</span>
+
+                  <span class="span title-2">Rs. 20/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A hot beverage made from tea leaves, milk, and sugar.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/coffee.jpg" width="100" height="100" loading="lazy"      
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Coffee</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 60/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A hot beverage made from coffee beans, milk, and sugar.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/veg-burger.jpg" width="100" height="100" loading="lazy"      
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Veg Burger</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A vegetarian burger consisting of a vegetable patty served in a bun with assorted toppings.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/chhese-burger.jpg" width="100" height="100" loading="lazy"      
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Cheese Burger</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 120/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A burger with a beef patty, cheese, lettuce, tomato, and sauce served in a bun.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/sandwich-plain.jpg" width="100" height="100" loading="lazy"      
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Veg Sandwich Plain</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 50/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A sandwich filled with mixed vegetables and served plain.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/veg cheese grilled sandwich.jpg" width="100" height="100" loading="lazy"
+                        class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Veg Cheese Grilled Sandwich</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Grilled sandwich with mixed vegetables and cheese filling.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/paneer-grilled.jpg" width="100" height="100" loading="lazy"      
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Paneer Grilled Sandwich</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 120/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Grilled sandwich with paneer (Indian cottage cheese) filling.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/mushroom.jpg" width="100" height="100" loading="lazy"      
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Mushroom Grilled Sandwich</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 120/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Grilled sandwich with mushroom & mixed vegetables filling.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+        
+
+
+
+        <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+          class="shape shape-2 move-anim">
+        <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+          class="shape shape-3 move-anim">
+
+      </div>
+    </section>
+
+
+
+    <!-- Lassi -->
+
+    <section class="section menu" aria-label="menu-label" id="menu2">
+      <div class="container">
+
+        <p class="section-subtitle text-center label-2">Refreshing Lassi Varieties</p>
+
+        <h2 class="headline-1 section-title text-center">Lassi</h2>
+
+        <ul class="grid-list">
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/sweet-salt-lassi.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Sweet Lassi & Salt Lassi</a>
+                  </h3>
+
+
+
+                  <span class="span title-2">Rs. 60/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A traditional Indian yogurt-based drink, sweetened and flavored with various ingredients.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/suger-free-lassi.jpg" width="100" height="100" loading="lazy"     
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Suger Free Lassi</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 80/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Creamy goodness of traditional lassi without the added sugar.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/masala-lassi.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Masala Chaach</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 70/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Made from yogurt blended with water and seasoned with a blend of aromatic spices such as cumin, coriander, and mint. 
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+
+        </ul>
+
+
+        <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+          class="shape shape-2 move-anim">
+        <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+          class="shape shape-3 move-anim">
+
+      </div>
+    </section>
+
+    <!-- cold coffee -->
+
+    <section class="section menu" aria-label="menu-label" id="menu3">
+      <div class="container">
+
+        <p class="section-subtitle text-center label-2">Coffee Creations</p>
+
+        <h2 class="headline-1 section-title text-center">Cold Coffee</h2>
+
+        <ul class="grid-list">
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/coffe-icecream.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Cold Coffee with Ice Cream</a>
+                  </h3>
+
+
+                  <span class="span title-2">Rs. 150/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Chilled coffee blended with milk and sugar, served over ice.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/cold-coffee.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Cold Coffee</a>
+                  </h3>
+
+
+                  <span class="span title-2">Rs. 140/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Chilled coffee blended with milk and sugar, served without ice.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/hazelenut.jpg" width="100" height="100" loading="lazy"     
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Hazelnut Cold Coffee</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 150/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Nutty aroma and rich flavor of hazelnut infused into a coffee without ice.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/hazelenut-iceream.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Hazelnut Cold Coffee w/ Ice Cream</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 170/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Nutty aroma and rich flavor of hazelnut infused into a chilled coffee.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+
+        </ul>
+
+
+        <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+          class="shape shape-2 move-anim">
+        <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+          class="shape shape-3 move-anim">
+
+      </div>
+    </section>
+
+    <!-- mocktails -->
+
+    <section class="section menu" aria-label="menu-label" id="menu4">
+      <div class="container">
+
+        <p class="section-subtitle text-center label-2">Refreshing Mocktails</p>
+
+        <h2 class="headline-1 section-title text-center">Mocktails</h2>
+
+        <ul class="grid-list">
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/virgin-mojito.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Virgin Mojito</a>
+                  </h3>
+
+
+                  <span class="span title-2">Rs. 140/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A non-alcoholic drink made with lime, mint, sugar, and soda water.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/mango.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Mango Mojito</a>
+                  </h3>
+
+
+                  <span class="span title-2">Rs. 150/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A refreshing mocktail made with mango, lime, mint, sugar, and soda water.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/orange.jpg" width="100" height="100" loading="lazy"     
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Orange Mojito</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 150/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A citrusy mocktail made with orange, lime, mint, sugar, and soda water.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/watermelon.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Watermelon Mojito</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 140/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A fruity mocktail made with watermelon, lime, mint, sugar, and soda water.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/green apllle.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Green Apple Mojito</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 160/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A tangy mocktail made with green apple, lime, mint, sugar, and soda water.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/blue-electric.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Electric Blue</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 150/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A vibrant blue mocktail made with blue curacao syrup, lemonade, and soda water.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/fruit-punch.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Fruit Punch</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 140/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A refreshing drink made with assorted fruits and fruit juice.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/pina.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Pina Colada</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 160/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  A tropical drink made with pineapple, coconut milk/cream, and rum (optional).
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <div class="menu-card hover:card">
+
+            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+              <img src="./assets/images/guava.jpg" width="100" height="100" loading="lazy"    
+                class="img-cover">
+            </figure>
+
+            <div>
+
+              <div class="title-wrapper">
+                <h3 class="title-3">
+                  <a href="#" class="card-title">Guava Spicy</a>
+                </h3>
+
+                <span class="span title-2">Rs. 160/-</span>
+              </div>
+
+              <p class="card-text label-1">
+                A tangy and spicy mocktail made with guava, lime, mint, sugar, chili powder, and soda water.
+              </p>
+
+            </div>
+
+          </div>
+          </li>
+
+        </ul>
+
+
+        <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+          class="shape shape-2 move-anim">
+        <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+          class="shape shape-3 move-anim">
+
+      </div>
+    </section>
+
+    <!-- Cold Beverages -->
+
+    <section class="section menu" aria-label="menu-label" id="menu5">
+      <div class="container">
+
+        <p class="section-subtitle text-center label-2">Chill Out with our</p>
+
+        <h2 class="headline-1 section-title text-center">Cold Beverages</h2>
+
+        <ul class="grid-list">
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/sodda.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Fresh Lime Soda Sweet/Salt/Mix</a>
+                  </h3>
+
+                  <span class="badge label-1">Seasonal</span>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Blend of freshly squeezed lime juice, soda water, and your choice of sweet or salty.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/water.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Fresh Lime Water Sweet/Salt/Mix</a>
+                  </h3>
+
+                  <span class="badge label-1">Seasonal</span>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Tangy lime, refreshing water, and your choice of sweetness or saltiness
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/lemon-tea.jpg" width="100" height="100" loading="lazy"     
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Lemon Ice Tea</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 140/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Tangy lemon and brewed tea, served over ice for a cool and revitalizing beverage.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/lemon-peache.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Lemon Peach Ice Tea</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Blend of tangy lemon and sweet peach infused into chilled tea, served over ice.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/cold-drinks.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Cold Drinks</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Fizzy and invigorating combination of assorted soft drinks served over ice.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/watermelon-wonder.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Watermelon Wonder</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Taste of juicy watermelon, blended to perfection and served over ice.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+
+        </ul>
+
+
+        <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+          class="shape shape-2 move-anim">
+        <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+          class="shape shape-3 move-anim">
+
+      </div>
+    </section>
+
+    <!-- Hot Beverages -->
+
+    <section class="section menu" aria-label="menu-label" id="menu6">
+      <div class="container">
+
+        <p class="section-subtitle text-center label-2">Warm and Comforting</p>
+
+        <h2 class="headline-1 section-title text-center">Hot Beverages</h2>
+
+        <ul class="grid-list">
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/cappuccino.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Cappuccino</a>
+                  </h3>
+
+                  <span class="badge label-1">Seasonal</span>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Balance of espresso, steamed milk, and foamed milk, this velvety beverage is topped with a sprinkle of chocolate powder.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/latte.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Cafe Latte</a>
+                  </h3>
+
+                  <span class="badge label-1">Seasonal</span>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Combined with steamed milk, creating a luxurious and comforting coffee experience.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/expressed.jpg" width="100" height="100" loading="lazy"     
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Expresso Black</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 140/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Freshly brewed espresso, without any added milk.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/green-tea.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Green Tea</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Sip on the natural goodness of green tea, renowned for its antioxidant properties.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/ginger.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Ginger Tea</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Ginger-infused tea, offering a comforting and aromatic beverage.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/masala-tea.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Masala Tea</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Tea leaves infused with a medley of warm spices like cardamom, cinnamon, cloves, and ginger.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/milk-tea.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Special Milk Tea</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Tea steeped in milk and aromatic spices, creating a uniquely flavorful.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+
+        <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+          class="shape shape-2 move-anim">
+        <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+          class="shape shape-3 move-anim">
+
+      </div>
+    </section>
+
+    <!-- Shakes -->
+
+    <section class="section menu" aria-label="menu-label" id="menu7">
+      <div class="container">
+
+        <p class="section-subtitle text-center label-2">Shakes That Wow</p>
+
+        <h2 class="headline-1 section-title text-center">Shakes</h2>
+
+        <ul class="grid-list">
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/vanila-honey.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Vanilla Honey Shake</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Vanilla paired with the natural sweetness of honey, blended into a creamy shake.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/vanila-iceream.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Vanilla Honey Shake w/ Ice-cream</a>
+                  </h3>
+
+                  <span class="badge label-1">Seasonal</span>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Vanilla paired with the natural sweetness of honey, blended into a creamy shake with Ice-cream.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/chocolate-shake.jpg" width="100" height="100" loading="lazy"     
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Chocolate Shake</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 140/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  chocolate syrup made from rich chocolate syrup blended into creamy milk.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/chocolate-iceream.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Chocolate Shake w/ Ice-cream</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Chocolate syrup is blended with creamy ice cream to create a luxurious and velvety beverage.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/pineapple-shake.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Pine-Apple Shake</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Tangy sweetness of ripe pineapple blended into a smooth and creamy concoction.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/pineapple-ice.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Pine-Apple Shake w/ Ice-cream</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Tangy sweetness of fresh pineapples, perfectly complemented by a scoop of creamy ice cream.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/oreo.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Oreo Shake</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Combination of crushed Oreo cookies blended.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/oreo-iceream.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Oreo Shake w/ Ice-cream</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Combination of crushed Oreo cookies blended with creamy ice cream.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/mango-shake.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Mango Shake</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Goodness of ripe mangoes blended into a smooth and luscious shake.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/mango-ice.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Mango Shake w/ Ice-cream</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Goodness of ripe mangoes blended into a smooth and luscious shake with Ice-cream.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/kitkat.jpg" width="100" height="100" loading="lazy"    
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Kit Kat Shake</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Kit Kat chocolate bars blended into a creamy shake, offering a delightful mix of chocolatey goodness and smooth milk.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/kitkat-ice.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Kit Kat Shake w/ Ice-cream</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Kit Kat shake to the next level by adding a scoop of velvety ice cream.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/strawberry.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Strawberry Shake</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Sweet and tangy flavors of fresh strawberries blended into a creamy and refreshing shake.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/strwaberry-ice.jpg" width="100" height="100" loading="lazy"
+                      class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Strawberry Shake w/ Ice-cream</a>
+                  </h3>
+
+                  <span class="span title-2">Rs. 100/-</span>
+                </div>
+
+                <p class="card-text label-1">
+                  Ultimate strawberry experience by adding a scoop of creamy ice cream to your strawberry shake, enhancing its richness and creaminess.
+                </p>
+
+              </div>
+
+            </div>
+
+        </ul>
+
+
+        <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+          class="shape shape-2 move-anim">
+        <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+          class="shape shape-3 move-anim">
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+      </div>
+
+
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <p class="copyright">
+        &copy; 2024 Kundan's All Rights Reserved | Developed by <a href="https://instagram.com/awkwardpy"
+          target="_blank" class="link">awkwardpy</a>
+      </p>
+
+    </div>
+
+    </div>
+  </footer>
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="./assets/js/contextMenu.js"></script>
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
